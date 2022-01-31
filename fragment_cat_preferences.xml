@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/busi_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_1"
+        android:textSize="24sp"
+        android:padding="10dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/ent_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_2"
+        android:textSize="24sp"
+        android:padding="10dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/health_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_4"
+        android:textSize="24sp"
+        android:padding="10dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/sci_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_5"
+        android:textSize="24sp"
+        android:padding="10dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/sports_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_6"
+        android:textSize="24sp"
+        android:padding="10dp" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/tech_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_7"
+        android:textSize="24sp"
+        android:padding="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">NewsAggregator</string>
+    <string name="title">Article Title</string>
+    <string name="category_default">Category</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cat_1">Business</string>
+    <string name="cat_2">Entertainment</string>
+    <string name="cat_3">General</string>
+    <string name="cat_4">Health</string>
+    <string name="cat_5">Science</string>
+    <string name="cat_6">Sport</string>
+    <string name="cat_7">Technology</string>
+    <string name="username">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="select_categories">Select Categories</string>
+    <string name="select_sources">Block Sources</string>
+    <string name="name">Name</string>
+    <string name="hello">Hello this is space for the article description to go. I hope this looks OK. Please look OK.</string>
+    <string name="search">Search</string>
+    <string name="author">Author</string>
+    <string name="source">Source</string>
+    <string name="account">Account</string>
+    <string name="view_history">View History</string>
+    <string name="modeswitch">ModeSwitch</string>
+    <string name="avatar">avatar</string>
+    <string name="log_out">Log Out</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="save_for_later">Save for Later</string>
+
+    <string-array name="tabTitles">
+        <item>Top Stories</item>
+        <item>My News</item>
+        <item>Categories</item>
+    </string-array>
+</resources>

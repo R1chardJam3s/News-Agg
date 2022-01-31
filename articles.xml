@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardBackgroundColor="#ABEF4E4E"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/titleLabel"
+        android:layout_width="300sp"
+        android:layout_height="25sp"
+        android:paddingStart="15sp"
+        android:text="@string/title"
+        android:textSize="18sp"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/descLabel"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="15sp"
+        android:text="@string/hello"
+        android:textSize="12sp"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/articleImage"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/actual_news_logo" />
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/authorLabel"
+        android:layout_width="140sp"
+        android:layout_height="18sp"
+        android:layout_marginTop="70sp"
+        android:paddingStart="15sp"
+        android:text="@string/author"
+        android:textSize="13sp"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/sourceLabel"
+        android:layout_width="140sp"
+        android:layout_height="18sp"
+        android:layout_marginStart="150sp"
+        android:layout_marginTop="70sp"
+        android:text="@string/source"
+        android:textSize="13sp"
+        tools:ignore="RtlSymmetry" />
+
+
+</androidx.cardview.widget.CardView>
